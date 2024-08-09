@@ -49,5 +49,11 @@
         "testTargetName": "test"
       }
     }
-  ]
+  ],
+  "targetDefaults": {
+    "e2e": {
+      "cache": true,
+      "inputs": ["default", "^production"]
+    }
+  }
 }
