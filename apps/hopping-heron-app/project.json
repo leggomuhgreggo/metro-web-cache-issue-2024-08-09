@@ -1,0 +1,9 @@
+{
+  "name": "hopping-heron-app",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/hopping-heron-app/src",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project hopping-heron-app --web",
+  "targets": {}
+}
