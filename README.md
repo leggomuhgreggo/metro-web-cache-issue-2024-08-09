@@ -93,7 +93,7 @@ yarn install
 ### Build Web
 
 ```
-yarn nx run hopping-heron-app:export --platform web --skip-nx-cache \
+yarn nx run hopping-heron-app:export --platform web --skip-nx-cache
 yarn nx run mysterious-macropod-app:export --platform web --skip-nx-cache
 ```
 
