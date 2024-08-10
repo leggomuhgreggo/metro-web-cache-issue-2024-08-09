@@ -12,6 +12,9 @@ The issue was intermittent and only happened in pipelines with multiple web buil
 
 We determined that metro was resolving the cached app config, from a previous project's build, because they had the same cache-key.
 
+> [!NOTE]
+> Created a [branch](https://github.com/leggomuhgreggo/metro-web-cache-issue-2024-08-09/tree/workaround) with [workaround](https://github.com/leggomuhgreggo/metro-web-cache-issue-2024-08-09/commit/cad28e485f611cfdc0e6ec752aa98315a3a14c91)
+
 <details>
   <summary>Additional Details</summary>
 
