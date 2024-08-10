@@ -2,7 +2,9 @@
   "name": "@metro-web-cache-issue-2024-08-09/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "test": "grep -r --color=always --with-filename -n '\"PROJECT_NAME' ./apps/**/dist/** | awk 'BEGIN {prev=\"\"} {if ($1 != prev) {print \"\\n--- File: \"$1 \" ---\"; prev=$1} print $0}'"
+  },
   "private": true,
   "dependencies": {
     "@expo/metro-config": "~0.18.1",
